@@ -122,5 +122,5 @@ Project Link: [https://github.com/fedev9/Vegetarian-Recipe-Website](https://gith
 [license-url]: https://github.com/fedev9/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/federico-cecconi-27951619a/
-[product-screenshot]: assets/img/homepage-git
-[above-screenshot]: src/images/recipes-git
+[product-screenshot]: assets/img/homepage-git.png
+[above-screenshot]: src/images/recipes-git.png
