@@ -16,7 +16,7 @@ const Recipe = () => {
 
     useEffect(() => {
 
-        async function fetchAPI() {
+        const fetchAPI = async () => {
             const response = await fetch(`https://api.spoonacular.com/recipes/${param.id}/information?includeNutrition=true&apiKey=${process.env.REACT_APP_API_KEY}`)
             const data = await response.json()
             setRecipe(data)
