@@ -45,3 +45,4 @@ export const setLoaded = bool => dispatch => {
         payload: bool
     });
 }
+

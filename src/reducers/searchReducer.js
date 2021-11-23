@@ -4,7 +4,8 @@ const initialState = {
     loading: false,
     recipe: [],
     recipes: {},
-    loaded: false
+    loaded: false,
+    id: ''
 }
 
 const searchReducer = (state = initialState, action) => {
@@ -38,6 +39,7 @@ const searchReducer = (state = initialState, action) => {
                 ...state,
                 loaded: action.payload
             }
+
         default:
             return state;
     }

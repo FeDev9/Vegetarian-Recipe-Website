@@ -2,6 +2,13 @@
     background: white;
     margin: 0 5rem 2rem 5rem;
     border-radius: 50px;
+    min-width: 300px;
+    max-width: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:static;
 }
 
 .homeTitle {
@@ -58,6 +65,30 @@
     border-radius: 50px;
 }
 
+.homeContainer img {
+    padding: 1rem;
+object-fit: contain;
+    border-radius: 50px;
+    width: 100%;
+
+    
+}
+
+.rightCol img {
+    width: 100% !important;
+
+}
+.rightCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    padding: 1rem;
+
+}
+
 
 
 
@@ -74,5 +105,15 @@
     .recipesContainer {
         flex-direction: column;
     }
-    
+
+ 
+      .images {
+          flex-direction: column;
+      }
+}
+
+@media screen and (min-width: 768px) {
+    .homeContainer img {
+        width: 50%;
+    }
 }

@@ -8,11 +8,11 @@ const BottomBar = () => {
             <div className={styles.links}>
                 <div className={styles.socialLink}>
                     <AiFillInstagram className={styles.socialIcon} />
-                    <a href="ciao" className={styles.socialName}>@fedev9_</a>
+                    <a href="https://www.instagram.com/fedev9_/" className={styles.socialName}>@fedev9_</a>
                 </div>
                 <div className={styles.socialLink}>
                     <AiFillLinkedin className={styles.socialIcon} />
-                    <a href="ciao" className={styles.socialName}>Federico Cecconi</a>
+                    <a href="https://www.linkedin.com/in/federico-cecconi-27951619a/" className={styles.socialName}>Federico Cecconi</a>
                 </div>
             </div>
 

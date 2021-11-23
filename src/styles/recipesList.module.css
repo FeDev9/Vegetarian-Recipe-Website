@@ -19,16 +19,16 @@
     border-radius: 50px;
     box-shadow: 2px 2px 5px 0px lightgray;
     width: auto;
-    overflow: hidden;
+    overflow:hidden;
+    
     
 
 }
 
-.recipe:hover {
+.recipe:hover, img:hover{
     transform: scale(1.05);
-    -webkit-transform: scale(1.05);
     transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3 ease-in-out;
+
 }
 
 .recipe h5 {
@@ -50,8 +50,8 @@
     height: 100%;
     width: 100%;
     border-radius: 50px;
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
     
 }
 

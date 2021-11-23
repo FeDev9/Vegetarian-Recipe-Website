@@ -15,13 +15,13 @@ export class RecipesList extends Component {
                         ? <>
                             < div className={styles.recipesContainer} >
                                 {recipes.map(recipe => (
-                                    <Link to={`/recipes/${recipe.id}`} className={styles.recipe}>
+                                    <Link to={`/recipes/${recipe.id}`} className={styles.recipe} key={recipe.id}>
                                         <img src={recipe.image} alt="" />
                                         <h5>{recipe.title}</h5>
                                     </Link>))}
                             </div>
                         </>
-                        : < h1 className={styles.noRecipes} > Non è stato possibile trovare ricette</ h1 >
+                        : < h1 className={styles.noRecipes} > There are no recipes with the specified name</ h1 >
                 }
             </>
         )

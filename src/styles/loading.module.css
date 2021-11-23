@@ -7,6 +7,7 @@
     max-height: 300px;
     overflow: hidden;
     align-items: center;
+    margin: 2rem;
 }
 
 .loadingContainer img {

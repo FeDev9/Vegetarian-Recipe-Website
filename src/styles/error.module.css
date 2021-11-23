@@ -1,0 +1,48 @@
+.errorContainer {
+    background: white;
+    margin: 2rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorContainer h1 {
+    padding: 2rem;
+    font-size: 40px;
+}
+
+.errorContainer p {
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.backHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    flex-direction: column-reverse;
+    color: black;
+    background: lightgray;
+    border-radius: 50px;
+    
+    
+}
+
+.backHomeSection {
+    display: flex;
+    justify-content: center;
+}
+
+.backHome:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.backHome .icon {
+    font-size: 25px;
+}
