@@ -58,6 +58,7 @@ The whole recipes database is provided by Spoonacular's API.
 ## Getting Started
 
 Insert your API key in .env.sample file and rename the file to .env .
+
 Install the necessary dependencies.
 
 
@@ -66,6 +67,7 @@ Install the necessary dependencies.
 ## Usage
 
 In Search Bar insert any recipe you want to look for and you'll see the top 9 recipes.
+
 Clicking on a recipe you will see the complete information such as ingredients and instructions.
 
 ![Product Name Screen Shot][above-screenshot]
