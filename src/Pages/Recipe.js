@@ -3,18 +3,15 @@ import { Link } from 'react-router-dom'
 import styles from '../styles/recipe.module.css'
 import { useParams } from 'react-router';
 import { useEffect } from 'react';
-import Error from '../Pages/Error';
 import { AiFillHome } from 'react-icons/ai'
 
-
-import Spinner from '../components/Spinner'
 
 
 const Recipe = () => {
 
     const param = useParams()
     const [recipe, setRecipe] = useState({})
-    const [load, setload] = useState(true)
+
 
 
     useEffect(() => {
@@ -25,7 +22,6 @@ const Recipe = () => {
             setRecipe(data)
         }
         fetchAPI()
-        setload(false)
 
 
     }, [])

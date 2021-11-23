@@ -14,7 +14,6 @@ export const fetchRecipes = text => dispatch => {
                 type: 'FETCH_RECIPES',
                 payload: response.data.results
             })
-            console.log(response)
         }
         )
         .catch(err => console.log(err));
