@@ -39,6 +39,7 @@ TRY IT HERE! --> [Vegetarian Recipes App](https://fedev9-vegetarian-recipes.netl
 ![Product Name Screen Shot][product-screenshot]
 
 This app, entirely created with react, offers you a catalogue of vegetarian recipes.
+
 The whole recipes database is provided by Spoonacular's API.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
