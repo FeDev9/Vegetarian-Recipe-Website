@@ -67,21 +67,14 @@
 }
 
 
-@media only screen and (max-width:340px) {
 
-    .recipesContainer {
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
 
 
 @media only screen and (max-width:792px) {
 
-    .recipesContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+     .recipesContainer {
+        display: flex ;
+        flex-direction: column ;
     }
 
     .recipe h5 {
