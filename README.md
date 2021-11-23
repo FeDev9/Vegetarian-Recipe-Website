@@ -58,16 +58,15 @@ The whole recipes database is provided by Spoonacular's API.
 ## Getting Started
 
 Insert your API key in .env.sample file and rename the file to .env .
-Install 
+Install the necessary dependencies.
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Enter the city you want to analyze and press "Enter" or enable the location by clicking the "GET YOUR LOCATION" button.
-On the details page you will see the pollution level in your chosen area, the degree of pollution and the location.
-
+In Search Bar insert any recipe you want to look for and you'll see the top 9 recipes.
+Clicking on a recipe you will see the complete information such as ingredients and instructions.
 
 ![Product Name Screen Shot][above-screenshot]
 
@@ -77,7 +76,7 @@ On the details page you will see the pollution level in your chosen area, the de
 
 <!-- ROADMAP -->
 ## Roadmap
-See the [open issues](https://github.com/fedev9/counter/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/fedev9/Vegetarian-Recipe-Website/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -103,20 +102,20 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 Linkedin: [@FedericoCecconi](https://www.linkedin.com/in/federico-cecconi-27951619a/)
 
-Project Link: [https://github.com/fedev9/air_pollution](https://github.com/fedev9/air_pollution)
+Project Link: [https://github.com/fedev9/Vegetarian-Recipe-Website](https://github.com/fedev9/Vegetarian-Recipe-Website)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/fedev9/air_pollution.svg?style=for-the-badge
-[contributors-url]: https://github.com/fedev9/air_pollution/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/fedev9/air_pollution.svg?style=for-the-badge
-[forks-url]: https://github.com/fedev9/air_pollution/network/members
-[stars-shield]: https://img.shields.io/github/stars/fedev9/air_pollution.svg?style=for-the-badge
-[stars-url]: https://github.com/fedev9/air_pollution/stargazers
-[issues-shield]: https://img.shields.io/github/issues/fedev9/air_pollution.svg?style=for-the-badge
-[issues-url]: https://github.com/fedev9/air_pollution/issues
-[license-shield]: https://img.shields.io/github/license/fedev9/air_pollution.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/fedev9/Vegetarian-Recipe-Website.svg?style=for-the-badge
+[contributors-url]: https://github.com/fedev9/Vegetarian-Recipe-Website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fedev9/Vegetarian-Recipe-Website.svg?style=for-the-badge
+[forks-url]: https://github.com/fedev9/Vegetarian-Recipe-Website/network/members
+[stars-shield]: https://img.shields.io/github/stars/fedev9/Vegetarian-Recipe-Website.svg?style=for-the-badge
+[stars-url]: https://github.com/fedev9/Vegetarian-Recipe-Website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fedev9/Vegetarian-Recipe-Website.svg?style=for-the-badge
+[issues-url]: https://github.com/fedev9/Vegetarian-Recipe-Website/issues
+[license-shield]: https://img.shields.io/github/license/fedev9/Vegetarian-Recipe-Website.svg?style=for-the-badge
 [license-url]: https://github.com/fedev9/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/federico-cecconi-27951619a/
